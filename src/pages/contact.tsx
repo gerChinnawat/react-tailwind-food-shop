@@ -33,7 +33,7 @@ const ContactPage = () => {
                     <article className="absolute bottom-2 left-[50]">
                         <span className="flex gap-1"><img src="/assets/copyright.svg" alt="Copyright" /> 2025 Taste Good by ServeTH | All Rights Reserved</span>
                 </article>
-                </section>
+                </section> 
             </footer>
         </>
     );
