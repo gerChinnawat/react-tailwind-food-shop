@@ -31,12 +31,10 @@ const ContactPage = () => {
                         <h1>SAT - SUN: 09:00 AM - 11:00 PM</h1>
                     </article>
                     <article className="absolute bottom-2 left-[50]">
-                        <span className="flex gap-1"><img src="/copyright.svg" alt="Copyright" /> 2025 Taste Good by ServeTH | All Rights Reserved</span>
+                        <span className="flex gap-1"><img src="/assets/copyright.svg" alt="Copyright" /> 2025 Taste Good by ServeTH | All Rights Reserved</span>
                 </article>
                 </section>
-                
             </footer>
-            
         </>
     );
 };
