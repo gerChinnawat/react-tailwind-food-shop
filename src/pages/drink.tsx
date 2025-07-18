@@ -1,5 +1,6 @@
 import LayoutMenuHomePage from "../components/LayoutMenuHomePage";
 import CardMenu from "../components/cardMenu";
+import imgBgDrink from "/assets/bg-drink.jpg"
 
 const DrinkPage = () => {
 
@@ -8,6 +9,7 @@ const DrinkPage = () => {
             <LayoutMenuHomePage
                 title="Drink"
                 subTitle="More Drink"
+                imgPath={imgBgDrink}
             >
                 <CardMenu />
                 <CardMenu />

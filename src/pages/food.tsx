@@ -1,12 +1,13 @@
 import CardMenu from "../components/cardMenu";
 import LayoutMenuHomePage from "../components/LayoutMenuHomePage";
+import imgBgFood from "/assets/bg-food.jpg";
 
 const FoodPage = () => {
     return (
-        <main className={`bg-[url('/assets/bg-food.jpg')] bg-cover bg-center text-center h-[90svh] my-[10svh] relative`}>
             <LayoutMenuHomePage
                 title="Food"
                 subTitle="More Food"
+                imgPath={imgBgFood}
             >
                 <CardMenu />
                 <CardMenu />
@@ -19,7 +20,6 @@ const FoodPage = () => {
                 <CardMenu />
                 <CardMenu />
             </LayoutMenuHomePage>
-        </main>
     );
 };
 

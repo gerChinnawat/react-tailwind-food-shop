@@ -1,5 +1,6 @@
 import LayoutMenuHomePage from "../components/LayoutMenuHomePage";
 import CardMenu from "../components/cardMenu";
+import imgBgDessert from "/assets/bg-dessert.jpg";
 
 const DessertPage = () => {
     return(
@@ -7,6 +8,7 @@ const DessertPage = () => {
             <LayoutMenuHomePage
                 title="Dessert"
                 subTitle="More Dessert"
+                imgPath={imgBgDessert}
             >
                 <CardMenu />
                 <CardMenu />
