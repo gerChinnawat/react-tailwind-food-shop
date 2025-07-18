@@ -3,22 +3,23 @@ import LayoutMenuHomePage from "../components/LayoutMenuHomePage";
 
 const FoodPage = () => {
     return (
-        <LayoutMenuHomePage
-            title="Food"
-            subTitle="More Food"
-            bgPath="/assets/bg-food.jpg"
-        >
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-            <CardMenu />
-        </LayoutMenuHomePage>
+        <main className={`bg-[url('/assets/bg-food.jpg')] bg-cover bg-center text-center h-[90svh] my-[10svh] relative`}>
+            <LayoutMenuHomePage
+                title="Food"
+                subTitle="More Food"
+            >
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+                <CardMenu />
+            </LayoutMenuHomePage>
+        </main>
     );
 };
 
