@@ -2,7 +2,7 @@ import LinkItem from "./linkItem";
 
 const Navbar = () => {
     return (
-    <nav className="flex flex-row justify-between sticky top-0 bg-white p-5 w-[100%] h-[10svh] z-[999]">
+    <nav className="flex flex-row justify-between sticky top-0 bg-white p-5 w-[100%] h-[5rem] z-[999]">
         <div className="logo text-[1.5rem]">
             <h1>Taste Good</h1>
         </div>

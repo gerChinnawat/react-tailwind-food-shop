@@ -19,7 +19,7 @@ const LayoutMenuHomePage = ({ title, children, subTitle, imgPath }: LayoutMenuHo
     return (
         <main
             style={{ backgroundImage: `url(${imgPath})` }}
-            className={`bg-[url('/assets/bg-food.jpg')] bg-cover bg-center text-center h-[90svh] my-[10svh] relative`}
+            className={`bg-[url('/assets/bg-food.jpg')] bg-cover bg-center text-center h-[90svh] my-[10svh] relative bg-fixed`}
         >
             <h1 className="text-7xl pt-15 pb-5 font-bold text-white">{title}</h1>
             <button onClick={() => scroll(-250)}>
